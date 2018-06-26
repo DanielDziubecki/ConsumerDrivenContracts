@@ -1,0 +1,25 @@
+﻿{
+  "Provider": "TestProvider",
+  "Consumer": "TestConsumer",
+  "Description": null,
+  "MetaData": null,
+  "Message": {
+    "$type": "ServicesAgreement.Tests.Verifier.SimpleCollectiomSchemaMessage, ServicesAgreement.Tests",
+    "LongProperty": 0,
+    "LongSomeCollection": null
+  },
+  "RequiredFields": [
+    {
+      "$type": "ServicesAgreement.Model.RequiredFields.SimpleRequiredField, ServicesAgreement",
+      "Name": "LongProperty",
+      "Level": 0,
+      "Type": "System.Int64"
+    },
+    {
+      "$type": "ServicesAgreement.Model.RequiredFields.SimpleCollectionRequiredField, ServicesAgreement",
+      "Name": "LongSomeCollection",
+      "Level": 0,
+      "Type": "CollectionOf:System.Int64"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\bin\Debug\netstandard2.0\ServicesAgreement.deps.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\bin\Debug\netstandard2.0\ServicesAgreement.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\bin\Debug\netstandard2.0\ServicesAgreement.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\bin\Debug\netstandard2.0\Microsoft.CSharp.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\bin\Debug\netstandard2.0\System.Dynamic.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\bin\Debug\netstandard2.0\Microsoft.CSharp.xml
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\obj\Debug\netstandard2.0\ServicesAgreement.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\obj\Debug\netstandard2.0\ServicesAgreement.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\obj\Debug\netstandard2.0\ServicesAgreement.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\obj\Debug\netstandard2.0\ServicesAgreement.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\obj\Debug\netstandard2.0\ServicesAgreement.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement\obj\Debug\netstandard2.0\ServicesAgreement.pdb

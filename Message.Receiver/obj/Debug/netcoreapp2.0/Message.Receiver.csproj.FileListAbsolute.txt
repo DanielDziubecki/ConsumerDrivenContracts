@@ -1,0 +1,13 @@
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\bin\Debug\netcoreapp2.0\Message.Receiver.deps.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\bin\Debug\netcoreapp2.0\Message.Receiver.runtimeconfig.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\bin\Debug\netcoreapp2.0\Message.Receiver.runtimeconfig.dev.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\bin\Debug\netcoreapp2.0\Message.Receiver.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\bin\Debug\netcoreapp2.0\Message.Receiver.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\bin\Debug\netcoreapp2.0\Message.Contracts.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\bin\Debug\netcoreapp2.0\Message.Contracts.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\obj\Debug\netcoreapp2.0\Message.Receiver.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\obj\Debug\netcoreapp2.0\Message.Receiver.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\obj\Debug\netcoreapp2.0\Message.Receiver.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\obj\Debug\netcoreapp2.0\Message.Receiver.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\obj\Debug\netcoreapp2.0\Message.Receiver.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Receiver\obj\Debug\netcoreapp2.0\Message.Receiver.pdb

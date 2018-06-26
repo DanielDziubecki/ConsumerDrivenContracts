@@ -1,0 +1,17 @@
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\ServicesAgreement.Tests.deps.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\ServicesAgreement.Tests.runtimeconfig.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\ServicesAgreement.Tests.runtimeconfig.dev.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\ServicesAgreement.Tests.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\ServicesAgreement.Tests.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\ServicesAgreement.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\ServicesAgreement.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\obj\Debug\netcoreapp2.0\ServicesAgreement.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\obj\Debug\netcoreapp2.0\ServicesAgreement.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\obj\Debug\netcoreapp2.0\ServicesAgreement.Tests.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\obj\Debug\netcoreapp2.0\ServicesAgreement.Tests.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\obj\Debug\netcoreapp2.0\ServicesAgreement.Tests.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\obj\Debug\netcoreapp2.0\ServicesAgreement.Tests.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\ServicesAgreement.Tests\bin\Debug\netcoreapp2.0\Verifier\Schemas\TestProvider-TestConsumer-SimpleSchemaMessage.json

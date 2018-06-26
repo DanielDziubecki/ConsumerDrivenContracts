@@ -1,0 +1,28 @@
+﻿{
+  "Provider": "TestProvider",
+  "Consumer": "TestConsumer",
+  "Description": null,
+  "MetaData": {
+    "$type": "<>f__AnonymousType0`1[[System.String, System.Private.CoreLib]], ServicesAgreement.Tests",
+    "messageNamespace": "ServicesAgreement.Tests.Verifier.BaseSchemaMessage"
+  },
+  "Message": {
+    "$type": "ServicesAgreement.Tests.Verifier.BaseSchemaMessage, ServicesAgreement.Tests",
+    "IntProperty": 0,
+    "DatetimeProperty": "0001-01-01T00:00:00"
+  },
+  "RequiredFields": [
+    {
+      "$type": "ServicesAgreement.Model.RequiredFields.SimpleRequiredField, ServicesAgreement",
+      "Name": "IntProperty",
+      "Level": 0,
+      "Type": "System.Int32"
+    },
+    {
+      "$type": "ServicesAgreement.Model.RequiredFields.SimpleRequiredField, ServicesAgreement",
+      "Name": "DatetimeProperty",
+      "Level": 0,
+      "Type": "System.DateTime"
+    }
+  ]
+}

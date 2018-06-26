@@ -1,0 +1,48 @@
+﻿{
+  "Provider": "Message.Publisher",
+  "Consumer": "Message.Reciever",
+  "Description": null,
+  "MetaData": null,
+  "Message": {
+    "$type": "Message.Contracts.ProductAdded, Message.Contracts",
+    "ProductId": 5,
+    "Msgs": [
+      {
+        "Type": 2147483647,
+        "Type1": "asas"
+      },
+      {
+        "Type": -2147483648,
+        "Type1": "asdasd"
+      }
+    ]
+  },
+  "RequiredFields": [
+    {
+      "$type": "ServicesAgreement.Model.RequiredFields.SimpleRequiredField, ServicesAgreement",
+      "Name": "ProductId",
+      "Level": 0,
+      "Type": "System.Int32"
+    },
+    {
+      "$type": "ServicesAgreement.Model.RequiredFields.ComplexCollectionRequiredField, ServicesAgreement",
+      "Name": "Msgs",
+      "Level": 0,
+      "Type": "CollectionOf:TestMsg",
+      "RequiredFields": [
+        {
+          "$type": "ServicesAgreement.Model.RequiredFields.SimpleRequiredField, ServicesAgreement",
+          "Name": "Type",
+          "Level": 0,
+          "Type": "System.Int32"
+        },
+        {
+          "$type": "ServicesAgreement.Model.RequiredFields.SimpleRequiredField, ServicesAgreement",
+          "Name": "Type1",
+          "Level": 0,
+          "Type": "System.String"
+        }
+      ]
+    }
+  ]
+}
