@@ -1,9 +1,0 @@
-C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Contracts\bin\Debug\netcoreapp2.0\Message.Contracts.deps.json
-C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Contracts\bin\Debug\netcoreapp2.0\Message.Contracts.dll
-C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Contracts\bin\Debug\netcoreapp2.0\Message.Contracts.pdb
-C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Contracts\obj\Debug\netcoreapp2.0\Message.Contracts.csproj.CoreCompileInputs.cache
-C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Contracts\obj\Debug\netcoreapp2.0\Message.Contracts.AssemblyInfoInputs.cache
-C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Contracts\obj\Debug\netcoreapp2.0\Message.Contracts.AssemblyInfo.cs
-C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Contracts\obj\Debug\netcoreapp2.0\Message.Contracts.dll
-C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Contracts\obj\Debug\netcoreapp2.0\Message.Contracts.pdb
-C:\Users\Daniel\Documents\Visual Studio 2017\Projects\ConsumerDrivenContractsSample\Message.Contracts\obj\Debug\netcoreapp2.0\Message.Contracts.csprojResolveAssemblyReference.cache
