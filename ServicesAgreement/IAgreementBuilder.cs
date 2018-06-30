@@ -1,4 +1,6 @@
-﻿namespace ServicesAgreement
+﻿using System;
+
+namespace ServicesAgreement
 {
     public interface IAgreementBuilder
     {
@@ -7,6 +9,7 @@
         IAgreementBuilder DescriptedWith(string description);
         IAgreementBuilder ExpectsMetaData(object metaData);
         IAgreementBuilder ExpectsMessage(object message);
+        IAgreementBuilder ExpectsMessageWithSpecificFields(Func<object> message);
         void Build();
     }
 }

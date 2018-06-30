@@ -1,4 +1,8 @@
-﻿using ServicesAgreement.Config;
+﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Reflection.Emit;
+using ServicesAgreement.Config;
 using ServicesAgreement.Exceptions;
 using ServicesAgreement.Factories;
 using ServicesAgreement.Model.Schemas;
@@ -55,6 +59,12 @@ namespace ServicesAgreement
         public IAgreementBuilder ExpectsMessage(object message)
         {
             this.message = message;
+            return this;
+        }
+
+        public IAgreementBuilder ExpectsMessageWithSpecificFields(Func<object> message)
+        {
+            this.message = message();
             return this;
         }
 
