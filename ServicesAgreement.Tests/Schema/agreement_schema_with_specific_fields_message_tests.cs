@@ -15,19 +15,11 @@ namespace ServicesAgreement.Tests.Schema
         public void schema_should_support_simple_types_specific_fields()
         {
             var message = new SomeMessage();
-            Func<object> specificMessageFieldsFunc = () =>
-            {
-                return new
-                {
-                    message.DateProperty,
-                    message.IntProperty
-                };
-            };
             var factory = new RequiredFieldFactory();
-            var fields = factory.GetRequiredFields(specificMessageFieldsFunc().GetType());
+            var fields = factory.GetRequiredFields(new { message.DateProperty, message.IntProperty }.GetType());
 
             fields.Should().HaveCount(2);
-            fields.Should().Contain(new SimpleRequiredField("IntProperty",0,"System.Int32"));
+            fields.Should().Contain(new SimpleRequiredField("IntProperty", 0, "System.Int32"));
             fields.Should().Contain(new SimpleRequiredField("DateProperty", 0, "System.DateTime"));
         }
 
@@ -35,15 +27,8 @@ namespace ServicesAgreement.Tests.Schema
         public void schema_should_support_complex_types_specific_fields()
         {
             var message = new SomeMessage();
-            Func<object> specificMessageFieldsFunc = () =>
-            {
-                return new
-                {
-                    message.SomeClass
-                };
-            };
             var factory = new RequiredFieldFactory();
-            var fields = factory.GetRequiredFields(specificMessageFieldsFunc().GetType());
+            var fields = factory.GetRequiredFields(new { message.SomeClass }.GetType());
 
             fields.Should().HaveCount(3);
             fields.Should().Contain(new ClassRequiredField("SomeClass", 0, "SomeClass"));
@@ -53,18 +38,11 @@ namespace ServicesAgreement.Tests.Schema
         public void schema_should_support_simple_collections_specific_fields()
         {
             var message = new SomeMessage();
-            Func<object> specificMessageFieldsFunc = () =>
-            {
-                return new
-                {
-                    message.DatesProperty
-                };
-            };
             var factory = new RequiredFieldFactory();
-            var fields = factory.GetRequiredFields(specificMessageFieldsFunc().GetType());
+            var fields = factory.GetRequiredFields(new { message.DatesProperty }.GetType());
 
             fields.Should().HaveCount(1);
-            fields.Should().Contain(new SimpleCollectionRequiredField("DatesProperty", 0, TypesNamesConsts.CollectionOf+ "System.DateTime"));
+            fields.Should().Contain(new SimpleCollectionRequiredField("DatesProperty", 0, TypesNamesConsts.CollectionOf + "System.DateTime"));
         }
 
         public class SomeMessage

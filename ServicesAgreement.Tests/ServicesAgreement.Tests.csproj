@@ -15,6 +15,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Verifier\Schemas\TestProvider-TestConsumer-BaseSchemaMessage.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Verifier\Schemas\TestProvider-TestConsumer-CollectionSchemaMessage.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Verifier\Schemas\TestProvider-TestConsumer-ComplexSchemaMessage.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Verifier\Schemas\TestProvider-TestConsumer-DictionarySchemaMessage.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Verifier\Schemas\TestProvider-TestConsumer-KeyValueSchemaMessage.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Verifier\Schemas\TestProvider-TestConsumer-SimpleCollectiomSchemaMessage.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Verifier\Schemas\TestProvider-TestConsumer-SimpleSchemaMessage.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

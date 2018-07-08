@@ -8,8 +8,8 @@ namespace ServicesAgreement
         IAgreementBuilder HasAgreementWith(string providerName);
         IAgreementBuilder DescriptedWith(string description);
         IAgreementBuilder ExpectsMetaData(object metaData);
-        IAgreementBuilder ExpectsMessage(object message);
-        IAgreementBuilder ExpectsMessageWithSpecificFields(Func<object> message);
+        IAgreementBuilder ExpectsMessage<T>(T message) where T: class;
+        IAgreementBuilder ExpectsMessageWithSpecificFields(object message);
         void Build();
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 using ServicesAgreement.Services;
 
 namespace ServicesAgreement.Model.Schemas
@@ -10,8 +11,14 @@ namespace ServicesAgreement.Model.Schemas
         public string Provider { get; }
         public string Consumer { get; }
         public string Description { get; }
+
+        [JsonProperty(TypeNameHandling = TypeNameHandling.None)]
         public object MetaData { get; }
+
+        [JsonProperty(TypeNameHandling = TypeNameHandling.None)]
         public object Message { get; }
+
+
         public IEnumerable<ISchemaRequiredField> RequiredFields { get; }
 
         public AgreementSchema(string provider,

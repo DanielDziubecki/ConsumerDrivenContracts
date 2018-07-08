@@ -10,16 +10,16 @@ namespace ServicesAgreement.Tests.Verifier
     {
         private readonly string schemasBaseUri = Path.Combine(Utils.GetApplicationRoot(), "Verifier\\Schemas\\");
 
-        //[Fact]
-        //public void initial()
-        //{
-        //    var builder = new AgreementBuilder();
-        //    builder.Consumer("TestConsumer")
-        //        .HasAgreementWith("TestProvider")
-        //        .ExpectsMessage(new BaseSchemaMessage())
-        //        .ExpectsMetaData(new { messageNamespace = typeof(BaseSchemaMessage).FullName })
-        //        .Build();
-        //}
+        [Fact]
+        public void initial()
+        {
+            var builder = new AgreementBuilder();
+            builder.Consumer("TestConsumer")
+                .HasAgreementWith("TestProvider")
+                .ExpectsMessage(new BaseSchemaMessage())
+                .ExpectsMetaData(new { messageNamespace = typeof(BaseSchemaMessage).FullName })
+                .Build();
+        }
 
         [Fact]
         public void verifier_should_throw_exception_on_different_provider_name()

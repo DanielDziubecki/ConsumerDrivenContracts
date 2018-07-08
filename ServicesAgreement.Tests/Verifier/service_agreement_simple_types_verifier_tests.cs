@@ -10,15 +10,15 @@ namespace ServicesAgreement.Tests.Verifier
     {
         private readonly string schemasBaseUri = Path.Combine(Utils.GetApplicationRoot(), "Verifier\\Schemas\\");
 
-        //[Fact]
-        //public void initial()
-        //{
-        //    var builder = new AgreementBuilder();
-        //    builder.Consumer("TestConsumer")
-        //        .HasAgreementWith("TestProvider")
-        //        .ExpectsMessage(new SimpleSchemaMessage())
-        //        .Build();
-        //}
+        [Fact]
+        public void initial()
+        {
+            var builder = new AgreementBuilder();
+            builder.Consumer("TestConsumer")
+                .HasAgreementWith("TestProvider")
+                .ExpectsMessage(new SimpleSchemaMessage())
+                .Build();
+        }
 
         [Fact]
         public void verifier_should_throw_exception_when_simple_type_type_changes()

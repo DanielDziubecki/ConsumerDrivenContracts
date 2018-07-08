@@ -56,17 +56,17 @@ namespace ServicesAgreement
             return this;
         }
 
-        public IAgreementBuilder ExpectsMessage(object message)
-        {
-            this.message = message;
-            return this;
-        }
+        //public IAgreementBuilder ExpectsMessage(object message)
+        //{
+        //    this.message = message;
+        //    return this;
+        //}
 
-        public IAgreementBuilder ExpectsMessageWithSpecificFields(Func<object> message)
-        {
-            this.message = message();
-            return this;
-        }
+        //public IAgreementBuilder ExpectsMessageWithSpecificFields(Func<object> message)
+        //{
+        //    this.message = message();
+        //    return this;
+        //}
 
         public IAgreementBuilder ExpectsMetaData(object metaData)
         {
@@ -104,6 +104,18 @@ namespace ServicesAgreement
 
             if (message == null)
                 throw new RequiredFieldException("Message object is required. Use ExpectsMessage method.");
+        }
+
+        public IAgreementBuilder ExpectsMessage<T>(T message) where T : class
+        {
+            this.message = message;
+            return this;
+        }
+
+        public IAgreementBuilder ExpectsMessageWithSpecificFields(object message)
+        {
+            this.message = message;
+            return this;
         }
     }
 }
